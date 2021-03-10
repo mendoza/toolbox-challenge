@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
     "style": "standard --fix  src/**/*.js",
-    "test": "npm run style && mocha __tests__"
+    "test": "mocha __tests__"
   },
   "keywords": [],
   "author": "David Mendoza",
