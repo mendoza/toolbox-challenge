@@ -36,7 +36,7 @@ Necesito un trabajo :rofl:
 ```
 
 
-## Correr modo desarrollo 👨‍💻
+## Correr modo desarrollo :man_technologist:
 
 ```bash
 
