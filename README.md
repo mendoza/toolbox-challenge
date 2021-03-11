@@ -26,10 +26,18 @@ Necesito un trabajo :rofl:
 
 ```
 
+## Correr modo producción :running:
+
+```bash
+
+> docker-compose up -d
+
+```
+
 ## Bugs :bug:
 
 Es probable que este proyecto no reciba actualizaciones.
 
-## License :scroll:
+## Licencia :scroll:
 
 - Licenciado bajo la [Licencia MIT](https://github.com/mendoza/toolbox-challenge/blob/master/LICENSE)
