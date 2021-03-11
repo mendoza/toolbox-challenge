@@ -1,10 +1,12 @@
 const express = require('express')
 const body = require('body-parser')
+const cors = require('cors')
 
 const PORT = 3001
 const app = express()
 app.use(body.urlencoded({ extended: true }))
 app.use(body.json())
+app.use(cors())
 
 app.get('/iecho', (req, res) => {
   const { text } = req.query
