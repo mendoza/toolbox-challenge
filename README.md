@@ -1,4 +1,4 @@
-# Challenge made with :heart: & :coffee:
+# Challenge hecho con :heart: & :coffee:
 
 ![License](https://img.shields.io/github/license/mendoza/toolbox-challenge.svg) ![size](https://img.shields.io/github/repo-size/mendoza/toolbox-challenge)
 
@@ -8,7 +8,7 @@ Esta aplicación está hecha para una entrevista en Toolbox
 
 Necesito un trabajo :rofl:
 
-## Instalacion :inbox_tray:
+## Instalación :inbox_tray:
 
 ```bash
 
@@ -30,7 +30,7 @@ Necesito un trabajo :rofl:
 
 ```bash
 
-> docker-compose up -d
+> docker-compose up
 
 ```
 
