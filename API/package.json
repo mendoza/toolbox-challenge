@@ -6,12 +6,19 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js",
-    "style": "standard --fix  src/**/*.js",
+    "style": "standard --fix  src/**/*.js __tests__/**/*.js",
     "test": "mocha __tests__"
   },
   "keywords": [],
   "author": "David Mendoza",
   "license": "MIT",
+  "standard": {
+    "globals": [
+      "it",
+      "describe",
+      "done"
+    ]
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "chai": "^4.3.3",
