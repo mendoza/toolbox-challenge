@@ -10,7 +10,6 @@ const asyncTestWord = (storeAPI) => (next) => (action) => {
         storeAPI.dispatch({ type: ADD_WORD, payload: { word: resp.data } });
       })
       .catch(() => {
-        console.log("wenas");
       });
   }
   return next(action);
