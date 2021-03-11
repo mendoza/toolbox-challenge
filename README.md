@@ -1,4 +1,4 @@
-# My Treasure made with :heart: & :coffee:
+# Challenge made with :heart: & :coffee:
 
 ![License](https://img.shields.io/github/license/mendoza/toolbox-challenge.svg) ![size](https://img.shields.io/github/repo-size/mendoza/toolbox-challenge)
 
