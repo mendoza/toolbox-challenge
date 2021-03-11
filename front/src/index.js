@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/Header.jsx";
+import List from "./components/List.jsx";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/main.css";
 
-const App = () => <h1>Webpack, React & Babel</h1>;
+const App = () => {
+  return (
+    <>
+      <Header />
+      <List />
+    </>
+  );
+};
 
-ReactDOM.render(<App />, document.getElementById("container"));
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("container")
+);
