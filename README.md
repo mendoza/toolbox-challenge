@@ -19,7 +19,6 @@ Necesito un trabajo :rofl:
 > cd API
 
 > npm install
-![image](https://user-images.githubusercontent.com/30415552/110837882-69035300-8267-11eb-92cc-f1940a1008e9.png)
 
 > cd ../front
 
